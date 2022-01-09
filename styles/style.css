@@ -1,0 +1,37 @@
+body {
+	padding: 30px;
+}
+
+.wrapper {
+	display: inline-flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 100%;
+	max-height: 200px;
+}
+
+.form_data {
+	flex-basis: 50%;
+	display: inline-block;
+	align-self: stretch;
+	border: 1px solid gray;
+	border-radius: 3px;
+	overflow: auto;
+}
+.form {
+	min-width: 40%;
+	display: inline-block;
+}
+
+.bg_red {
+	background-color: rgba(255, 95, 95, 1);
+}
+
+.bg_greenyellow {
+	background-color: greenyellow;
+}
+.data_item {
+	display: flex;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
